@@ -1,0 +1,79 @@
+/* DEFININDO TAMANHO MOBILE DE ATÉ NO MAXIMO 6OOpx */
+@media only screen and (max-width: 600px) {
+
+    /* INICIO DA CONFIGURAÇÃO DO CABEÇALHO DE PONTUAÇÃO */
+    main {
+        font-family: 'Hanken Grotesk', sans-serif;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        /* justify-content: center;
+        align-items: center; */
+    }
+
+    header#result {
+        max-width: 600px;
+        height: 375px;
+        border-bottom-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+        background-image: linear-gradient(hsl(252, 100%, 61%), hsl(241, 81%, 54%));
+    }
+
+    #you-result {
+        font-weight: 500px;
+        font-size: 1.2em;
+        color: hsl(241, 100%, 89%);
+        margin-top: 30px;
+    }
+
+    #circle {
+        width: 145px;
+        height: 145px;
+        border-radius: 100%;
+        margin: 25px auto;
+        background-image: linear-gradient(rgb(56, 15, 204), hsla(241, 72%, 46%, 0));
+
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    span#score-current {
+        color: hsl(0, 0%, 100%);
+        font-weight: 700;
+        font-size: 3.2em;
+    }
+
+    span#max-score {
+        color: hsl(241, 100%, 89%);
+        font-weight: 700;
+        font-size: 1em;
+        display: block;
+    }
+
+    section#result-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section#result-text h2{
+        color:hsl(0, 0%, 100%);
+        font-weight: 500;
+        font-size: 1.5em;
+    }
+
+    section#result-text p{
+        max-width: 290px;
+        color:hsl(241, 100%, 89%);
+        font-weight: 500;
+        font-size: 1em;
+        margin-top: 10px;
+    }
+
+
+    /* FINAL DA CONFIGURAÇÃO DO CABEÇALHO DE PONTUAÇÃO */
+
+}
